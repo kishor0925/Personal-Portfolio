@@ -1,0 +1,25 @@
+.navbar-brand{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.nav-item .nav-link{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar {
+  background-color: black !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #E2E8F0 !important;
+}
+
+.navbar .nav-link:hover {
+  color: tomato !important;
+}
+.navbar .nav-link.active {
+  color: tomato;
+}

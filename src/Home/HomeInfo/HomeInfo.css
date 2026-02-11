@@ -1,0 +1,38 @@
+.Home-subheading {
+    text-transform: uppercase; 
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bolder;  
+    font-size: 20px; 
+    letter-spacing: 1px;
+}
+.homeinfo{
+    margin-left: auto;
+}
+.myimg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px; 
+  display: block;
+  margin: 0 auto; 
+}
+.Home-heading{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 800;  
+    font-size: 50px; 
+}
+.Home-para{
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 300;   
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.btn-outline-info {
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.btn-outline-info:hover {
+  transform: translateY(-5px);
+}
