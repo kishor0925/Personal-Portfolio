@@ -1,4 +1,9 @@
-*{
-  background-color: black ;
-  color: #E2E8F0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: black;
+  background-color: #E2E8F0; 
 }

@@ -8,13 +8,13 @@
     font-weight: 800;
     text-transform: uppercase;
 }
-.navbar {
+/* .navbar {
   background-color: black !important;
-}
+} */
 
 .navbar .nav-link,
 .navbar .navbar-brand {
-  color: #E2E8F0 !important;
+  color: black !important;
 }
 
 .navbar .nav-link:hover {

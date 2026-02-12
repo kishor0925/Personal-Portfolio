@@ -1,7 +1,7 @@
 import React from 'react'
 import '../HomeInfo/HomeInfo.css'
 import { motion } from "framer-motion";
-import { FaInstagram, FaLinkedinIn, FaGithub, FaReact, FaPalette, FaMobileAlt, FaLink } from "react-icons/fa";
+import {FaLinkedinIn,FaGithub,FaReact,FaPalette} from "react-icons/fa";
 import myimg from './Images/myimg2.png'
 
 const HomeInfo = () => {
@@ -19,7 +19,7 @@ const HomeInfo = () => {
     };
 
     const containerVariants = {
-        hidden: { opacity: 0 },
+        hidden: { opacity: 0,},
         visible: {
             opacity: 1,
             transition: {
