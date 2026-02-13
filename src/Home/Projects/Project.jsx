@@ -23,8 +23,8 @@ const Projects = () => {
       techstack : [FaHtml5, FaCss3Alt, FaJs,FaBootstrap],
       description:
         "Responsive e-commerce website with cart system, product filtering, and authentication.",
-      github: "https://github.com/yourusername/kmart",
-      live: "https://kmart-demo.netlify.app"
+      github: "https://github.com/kishor0925/K-Mart",
+      live: "https://kishor0925.github.io/K-Mart/index.html"
     },
     {
       id: 2,
@@ -34,8 +34,8 @@ const Projects = () => {
        techstack : [FaReact, FaCss3Alt,FaJs ,FaBootstrap, LuFramer],
       description:
         "Modern fashion store website built using React and Bootstrap.",
-      github: "https://github.com/yourusername/retromenspoint",
-      live: "https://retromenspoint.netlify.app"
+      github: "https://github.com/kishor0925/Retro_Mens_Point",
+      live: "https://retro-mens-point-oymq.vercel.app/"
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ const Projects = () => {
       techstack : [FaReact, FaCss3Alt,FaJs ,FaBootstrap, LuFramer],
       description:
         "Modern and fully responsive developer portfolio built using React and Bootstrap",
-      github: "https://github.com/arunkumar-dev/portfolio-website",
+      github: "https://github.com/kishor0925/Personal-Portfolio",
       live: "https://arunkumar-portfolio.netlify.app"
     },
     {
@@ -74,7 +74,7 @@ const Projects = () => {
   );
 
   return (
-    <section className="projects-section py-5" id="projects">
+    <section className="projects-section py-5" id="project">
       <h2 className="text-center mb-5 projects-heading">
         My Projects
       </h2>

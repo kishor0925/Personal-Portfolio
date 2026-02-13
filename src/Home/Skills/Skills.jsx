@@ -32,7 +32,7 @@ const Skills = () => {
     const currentItems = activeTab === "skills" ? skills : tools;
 
     return (
-        <div className='skills-section'>
+        <div className='skills-section' id='skills'>
             <h2 className='text-center mb-4 skills-heading'>Skills</h2>
             <div className='toggle-wrapper'>
                 <button
