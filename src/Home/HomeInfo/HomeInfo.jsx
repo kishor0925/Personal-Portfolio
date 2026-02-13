@@ -93,7 +93,7 @@ const HomeInfo = () => {
                         <div className="col-12 col-md-6  col-lg-4">
                             <h3 className="Home-subheading">Hire Me</h3>
                             <motion.a whileHover={{ scale: 1.2, rotate: 1 }} whileTap={{ scale: 0.9 }} download="Kishor_M_Resume_2026.pdf"
-                                href="/Kishor_cv_2026.pdf" className="btn btn-outline-info m-2">
+                                href="/Kishor_Resume_2026.pdf" className="btn btn-outline-info m-2">
                                 Resume
                             </motion.a>
                         </div>
