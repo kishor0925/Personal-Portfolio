@@ -1,9 +1,8 @@
 import React from 'react'
 import '../HomeInfo/HomeInfo.css'
 import { motion } from "framer-motion";
-import {FaLinkedinIn,FaGithub,FaReact,FaPalette} from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaReact, FaPalette } from "react-icons/fa";
 import myimg from './Images/myimg5.png'
-
 const HomeInfo = () => {
 
     const text = "FrontEnd Developer [React]";
@@ -15,11 +14,11 @@ const HomeInfo = () => {
             y: 0,
             transition: { duration: 0.05 }
         }
-        
+
     };
 
     const containerVariants = {
-        hidden: { opacity: 0,},
+        hidden: { opacity: 0, },
         visible: {
             opacity: 1,
             transition: {
@@ -82,18 +81,19 @@ const HomeInfo = () => {
                     <motion.div className="row mt-4" variants={itemVariants}>
                         <div className="col-12 col-md-6 col-lg-4">
                             <h3 className="Home-subheading">Find Me On</h3>
-                            <motion.a whileHover={{ scale: 1.2, rotate : 1 }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com/in/kishor25/" className="btn btn-outline-info m-2">
+                            <motion.a whileHover={{ scale: 1.2, rotate: 1 }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com/in/kishor25/" className="btn btn-outline-info m-2">
                                 <FaLinkedinIn />
                             </motion.a>
 
-                            <motion.a whileHover={{ scale: 1.2 , rotate : 1}} whileTap={{ scale: 0.9 }} href="https://github.com/kishor0925" className="btn btn-outline-info m-2">
+                            <motion.a whileHover={{ scale: 1.2, rotate: 1 }} whileTap={{ scale: 0.9 }} href="https://github.com/kishor0925" className="btn btn-outline-info m-2">
                                 <FaGithub />
                             </motion.a>
                         </div>
 
                         <div className="col-12 col-md-6  col-lg-4">
                             <h3 className="Home-subheading">Hire Me</h3>
-                            <motion.a whileHover={{ scale: 1.2, rotate : 1 }} whileTap={{ scale: 0.9 }} className="btn btn-outline-info m-2">
+                            <motion.a whileHover={{ scale: 1.2, rotate: 1 }} whileTap={{ scale: 0.9 }} download="Kishor_M_Resume_2026.pdf"
+                                href="/Kishor_cv_2026.pdf" className="btn btn-outline-info m-2">
                                 Resume
                             </motion.a>
                         </div>
