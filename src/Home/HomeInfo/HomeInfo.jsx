@@ -2,7 +2,7 @@ import React from 'react'
 import '../HomeInfo/HomeInfo.css'
 import { motion } from "framer-motion";
 import { FaLinkedinIn, FaGithub, FaReact, FaPalette } from "react-icons/fa";
-import myimg from './Images/myimg5.png'
+import myimg from './Images/user.png'
 const HomeInfo = () => {
 
     const text = "FrontEnd Developer [React]";
@@ -38,12 +38,12 @@ const HomeInfo = () => {
 
     return (
         <motion.div
-            className='container mt-5'
+            className='container d-flex justify-content-center home-section'
             variants={containerVariants}
             initial="hidden"
             animate="visible"
         >
-            <div className='row homeinfo d-flex justify-content-center align-items-center'>
+            <div className='row homeinfo align-items-center justify-content-center text-center text-md-start'>
 
                 <motion.div
                     className='col-12 col-md-6 homeinfocol'

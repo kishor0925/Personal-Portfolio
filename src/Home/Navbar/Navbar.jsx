@@ -3,7 +3,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navs">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navs fixed-top">
       <div className="container">
 
         {/* Left - Brand */}
