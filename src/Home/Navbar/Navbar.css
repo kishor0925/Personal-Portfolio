@@ -4,9 +4,12 @@
     text-transform: uppercase;
 }
 .nav-item .nav-link{
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
+  color: #E5E7EB;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  text-transform: uppercase;
+   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal
 }
 /* .navbar {
   background-color: black !important;
@@ -14,7 +17,7 @@
 
 .navbar .nav-link,
 .navbar .navbar-brand {
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .navbar .nav-link:hover {
@@ -22,4 +25,10 @@
 }
 .navbar .nav-link.active {
   color: tomato;
+}
+.brand{
+  text-transform: uppercase;
+  font-family: "Bungee", sans-serif;
+  font-weight: 40;
+  font-style: normal;
 }
