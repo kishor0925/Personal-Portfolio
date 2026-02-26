@@ -47,7 +47,7 @@ const Navbar = () => {
           {/* Right - Resume Button */}
           <div className="d-flex">
             <a
-              href="/Kishor_Resume_2026.pdf"
+              href="/Kishor_M_React_Frontend_Developer_Resume"
               download
               className="btn btn-info resume-btn"
             >
