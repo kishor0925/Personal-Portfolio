@@ -46,7 +46,7 @@ const Projects = () => {
       description:
         "Modern and fully responsive developer portfolio built using React and Bootstrap",
       github: "https://github.com/kishor0925/Personal-Portfolio",
-      live: "https://arunkumar-portfolio.netlify.app"
+      live: "kishorpersonalportfolio.vercel.app"
     },
     {
       id: 3,
