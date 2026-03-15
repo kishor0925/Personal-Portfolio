@@ -6,7 +6,7 @@ import travel from "./Images/travel.png";
 import portfolio from './Images/portfolio.png'
 import { FaHtml5 , FaFigma, FaCss3Alt , FaJs, FaBootstrap, FaReact, FaGithub, FaJava } from "react-icons/fa";
 import { LuFramer } from "react-icons/lu";
-
+import mobilehub from './Images/mobilehub.png'
 import { DiMongodb, DiVisualstudio, DiEclipse } from "react-icons/di";
 import { IoGitMergeOutline } from "react-icons/io5";
 import { SiCisco, SiRedux } from "react-icons/si";
@@ -48,6 +48,16 @@ const Projects = () => {
       github: "https://github.com/kishor0925/Personal-Portfolio",
       live: "kishorpersonalportfolio.vercel.app"
     },
+    {
+  id: 6,
+  category: "Web",
+  img: mobilehub,
+  title: "MobileHub",
+  techstack: [FaReact, FaCss3Alt, FaJs, FaBootstrap, LuFramer],
+  description: "Mobile e-commerce web application built with React featuring brand-based browsing, dynamic product pages, and Redux-powered cart functionality.",
+  github: "https://github.com/kishor0925/MobileHub",
+  live: "https://mobile-hub-five.vercel.app/"
+},
     {
       id: 3,
       category: "UI/UX",

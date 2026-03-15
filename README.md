@@ -1,16 +1,106 @@
-# React + Vite
+# 🌐 Kishor M – Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **personal developer portfolio website** built using **React.js and Vite** to showcase my projects, technical skills, and experience as a **React.js Frontend Developer**.
 
-Currently, two official plugins are available:
+The portfolio highlights my work in building modern web applications with a focus on **responsive design, reusable components, and performance optimization**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Website
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://kishorpersonalportfolio.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- 👨‍💻 Developer introduction and professional summary  
+- 🛠️ Technical skills showcase  
+- 📂 Project portfolio with GitHub and Live Demo links  
+- 📱 Fully responsive design for all devices  
+- ⚡ Fast performance powered by Vite  
+- 🎨 Smooth animations using Framer Motion  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **Bootstrap**
+- **Framer Motion**
+- **Vite**
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio
+│
+├── public
+│
+├── src
+│   ├── Components
+│   │   ├── About
+│   │   ├── Projects
+│   │   ├── Skills
+│   │   ├── Contact
+│   │   ├── Navbar
+│   │   └── Footer
+│   │
+│   ├── assets
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository
+
+```bash
+git clone https://github.com/kishor0925/your-portfolio-repo
+```
+
+Navigate to project folder
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📬 Contact
+
+👤 **Kishor M**  
+📍 Coimbatore, Tamil Nadu  
+
+- LinkedIn: https://www.linkedin.com/in/kishor25/  
+- GitHub: https://github.com/kishor0925  
+- Email: imkishor172@gmail.com  
+
+---
+
+⭐ If you like this project, feel free to **star the repository**!
